@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Cars</title>
 </head>
 <body>
@@ -17,11 +17,13 @@
                 <div class="header_logo">
                     <a href="#main"><img class="logo-img" src="./img/logo 1.png" alt="logo_icon"></a>
                 </div>
-                <nav class="header_item">
-                    <a href="#main">Головна</a>
-                    <a href="#service">Наші Послуги</a>
-                    <a href="#about">Про нас</a>
-                    <a href="#contact">Контакти</a>
+                <nav>
+                    <ul class="header_item">
+                        <li><a href="#main">Головна</a></li>
+                        <li><a href="#service">Наші Послуги</a></li>
+                        <li><a href="#about">Про нас</a></li>
+                        <li><a href="#contact">Контакти</a></li>
+                    </ul>
                 </nav>
                 <div class="burger-menu">
                     <input id="menu-toggle" type="checkbox">
@@ -45,7 +47,6 @@
                 </div>
             </header>
             <a href="#main"><img class="arrow" src="./img/arrow.png" alt=""></a>
-            <!-- ------END-HEADER----- -->
             <div class="intro">
                 <div class="intro_container">
                     <div class="_container">
@@ -53,13 +54,12 @@
                             СЕРВІС, ЯКОМУ МОЖНА ДОВІРЯТИ
                         </h1>
                         <div class="intro_button _button">
-                            <a href="#">Показати більше</a>
+                            <a href="/error-UK.html">Показати більше</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--  -->
         <!-- -------BLOCK_CONTAKT------- -->
         <section class="block-contakt">
             <div class="intro_fotter _container">
@@ -83,7 +83,6 @@
                 </div>
             </div>
         </section>
-        <!-- -----END--BLOCK_CONTAKT------- -->
         <!-- -----------SERVICE------------ -->
         <section class="service" id="service">
             <div class="_container">
@@ -93,32 +92,32 @@
                 </div>
                 <div class="service-list">
                     <div class="service-item">
-                        <div class="block-img">
+                        <a href="/error-UK.html" class="block-img">
                             <p class="service-item_button">+</p>
                             <img class="service-img" src="./img/diagnostic.jpg" alt="">
                             <p class="service-item_text">
                                 ЩОРІЧНІ ПЕРЕВІРКИ</p>
-                        </div>
+                        </a>
                         <p class="service-item_name">
                             ДІАГНОСТИЧНА
                         </p>
                     </div>
                     <div class="service-item">
-                        <div class="block-img">
+                        <a href="/error-UK.html" class="block-img">
                             <p class="service-item_button">+</p>
                             <img class="service-img" src="./img/tires.jpg" alt="">
                             <p class="service-item_text">ЩОРІЧНІ ПЕРЕВІРКИ</p>
-                        </div>
+                        </a>
                         <p class="service-item_name">
                             ДІАГНОСТИЧНА
                         </p>
                     </div>
                     <div class="service-item">
-                        <div class="block-img">
+                        <a href="/error-UK.html" class="block-img">
                             <p class="service-item_button">+</p>
                             <img class="service-img" src="./img/Engine.jpg" alt="">
                             <p class="service-item_text">ЩОРІЧНІ ПЕРЕВІРКИ</p>
-                        </div>
+                        </a>
                         <p class="service-item_name">
                             ДІАГНОСТИЧНА
                         </p>
@@ -127,7 +126,6 @@
                 </div>
             </div>
         </section>
-        <!-- ---------END--SERVICE--------- -->
         <!-- --------------ABOUT----------- -->
         <section class="block-about" id="about">
             <div class="_container">
@@ -139,7 +137,7 @@
                         <p class="block-above_text">
                             Ремонт і технічне обслуговування автомобіля може бути дорогим, і ніхто не хоче отримувати плату за усунення пошкоджень, спричинених неякісним обслуговуванням. Коли ви привезете свій автомобіль у наш автомагазин, вам не доведеться хвилюватися, тому що наш персонал складається з сертифікованих техніків ASE, які віддані тому, щоб у вас був безпечний і надійний автомобіль.
                         </p>
-                        <a href="#" class="block-above_link">
+                        <a href="/error-UK.html" class="block-above_link">
                             БІЛЬШЕ ПРО НАС
                         </a>
                     </div>
@@ -149,7 +147,6 @@
                 </div>
             </div>
         </section>
-        <!-- ---------END--ABOUT----------- -->
         <!-- ---------WORK-PROCESS---------- -->
         <section class="work-process">
             <div class="_container">
@@ -189,7 +186,6 @@
                 </div>
             </div>
         </section>
-        <!-- -------END--WORK-PROCESS---------- -->
         <!-- ----------CONTACT------------ -->
         <section class="block-contack" id="contact">
             <div class="_container">
@@ -209,14 +205,13 @@
                         <div class="_form-input">
                             <textarea name="" id="" cols="30" rows="10" placeholder="Повідомлення"></textarea>
                         </div>
+                        <div class="intro_button _button">
+                            <button type="submit">Надіслати</button>
+                        </div>
                     </form>
-                    <div class="intro_button _button">
-                        <a href="#">Надіслати</a>
-                    </div>
                 </div>
             </div>
         </section>
-        <!-- -------END--CONTACT---------- -->
         <!-- ------------FOOTER---------- -->
         <footer class="footer">
             <div class="_container">

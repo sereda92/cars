@@ -205,6 +205,7 @@ body
     margin-right: 5px
 
 .block-img
+    display: block
     position: relative
     max-width: 386px
     max-height: 500px
@@ -447,6 +448,35 @@ textarea
     letter-spacing: 0.15em
     color: $color-black
 
-
+.section__error
+    height: 100vh
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    color: $white-color
+    position: relative
+    span
+        display: inline-block
+        font-size: 48px
+        margin-bottom: 100px
+        &:nth-child(1)
+            margin: 0 auto 25px 0
+        &:nth-child(2)
+            margin-left: auto
+            
+    h2
+        display: inline-block
+        font-size: 24px
+        margin-left: auto
+    img
+        width: 50px
+        position: absolute
+        // top: 50%
+        left: 50%
+        bottom: 30%
+        mix-blend-mode: difference
+    svg
+        margin-top: 50px
 
 @import 'media'
